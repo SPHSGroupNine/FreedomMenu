@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.test.freedommenu_v2.bakedBeans">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/benfieldhoagie"
+        android:layout_alignParentTop="false" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/arrowLeftBenfield"
+        android:background="@drawable/left_triangle"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/arrowRightBenfield"
+        android:background="@drawable/right_triangle"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:id="@+id/soundButtonBenfield"
+        android:background="@drawable/speak"
+        android:layout_gravity="start"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:id="@+id/homeButtonBenfield"
+        android:background="@drawable/home"
+        android:layout_gravity="end"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Benfield Hoagie"
+        android:id="@+id/textView10"
+        android:textSize="80sp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/ingredientsBenfield"
+        android:background="@drawable/ingredients"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/checkoutBenfield"
+        android:layout_gravity="center"
+        android:background="@drawable/check_out"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Checkout"
+        android:id="@+id/checkBoxBakedBeans"
+        android:checked="false"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/checkoutBenfield"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Price: $$$"
+        android:id="@+id/textView11"
+        android:textSize="37sp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

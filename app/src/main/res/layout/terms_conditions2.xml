@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.test.freedommenu_v2.termsConditions2">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/buttonTermsConditions2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Tap to Continue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Terms &amp; Conditions"
+        android:id="@+id/textView14"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="      Violations and Additional Terms Freedom Menu reserves the right to seek all remedies available at law and in equity for violations of this Terms and Conditions statement, including suspending or blocking your access to the app. Please see our Privacy Policy for our policies regarding privacy, which is incorporated herein by reference. "
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="     No Waiver No delay or failure by Freedom Menu to enforce any of these Terms and Conditions shall constitute a waiver of any of our rights under these Terms and Conditions. Neither the receipt of any funds by Freedom Menu nor the reliance of any person on our actions shall be deemed to constitute a waiver of any part of these Terms and Conditions. Only a specific, written waiver signed by an authorized representative of Freedom Menu shall have any legal effect. "
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="     Severability If any clause or provision set forth in this Terms and Conditions statement is determined to be illegal, invalid or unenforceable under present or future law, the clause or provision shall be deemed to be deleted without affecting the enforceability of all remaining clauses or provisions. "
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="     Governing Law and Jurisdiction These Terms and Conditions and any disputes arising under or related to these Terms and Conditions and/or the Privacy Policy or to this Site will be governed by U.S. federal law and the laws of the State of Maryland, without reference to its conflict of law principles. You agree to submit to the personal jurisdiction and venue of the courts of the State of California for any legal proceeding involving the Site, regardless of who initiated the proceeding. This English-language Terms and Conditions statement is P2 Office’s official agreement with users of this Site. In case of any inconsistency between this English-language Terms and Conditions statement and its translation into another language, this English-language document shall control. "
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

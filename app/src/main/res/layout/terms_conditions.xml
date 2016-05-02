@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.test.freedommenu_v2.termsConditions">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="        Welcome to the mobile application (“app”) of Freedom Menu (Freedom Menu Union) (“Freedom Menu”, “we” or “us”). Freedom Menu is the sole owner of this app. Set out below are Terms and Conditions for use of this app. You agree to be bound by these terms if you use our app. Your continued use of the app signifies your acceptance of any changed items."
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="       Disclaimer of Warranty, Limitation of Liability, and Release Freedom Menu does not guarantee the accuracy of information found in the app. Your reliance on information found in the app is at your own risk. The app, and all its contents, is provided to you “as is.” Freedom Menu makes no warranties or representations, express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, title, non-infringement of the rights of third parties, data accuracy, or quiet enjoyment. Under no circumstances will Freedom Menu or any others involved in creating the app and its contents be liable for any damages or injury, including any direct, indirect, incidental, special, consequential, punitive or other damages resulting from any circumstance involving the app or its content (including but not limited to damages or injury caused by error, omission, interruption, defect, failure of performance, misdirected or redirected transmissions, failed internet connections, unauthorized use of this app, lost data, delay in operation or transmission, breach of security, line failure, defamatory, offensive or illegal conduct of any user of this app, or computer virus, worm, trojan horse or other harmful component), even if you have advised Freedom Menu in advance of the possibility of such damage. Freedom Menu does not warrant or make any representations regarding the materials in this app in terms of their timeliness, correctness, accuracy, reliability, or otherwise. While we make reasonable efforts to provide accurate and timely information about Freedom Menu in this app, you should not assume that the information provided is always up to date or that this app contains all the relevant information available about our company. We undertake no obligation to verify or maintain the currency of such information. "
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Terms &amp; Conditions"
+        android:id="@+id/textView14"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/buttonTermsConditions"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Tap to Continue"
+        android:textSize="30sp" />
+
+</RelativeLayout>
